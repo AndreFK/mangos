@@ -1,7 +1,1 @@
-﻿  main.cpp
-c:\users\usuario\documents\visual studio 2017\projects\mangos\mangos\main.cpp(70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\usuario\documents\visual studio 2017\projects\mangos\mangos\main.cpp(87): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\usuario\documents\visual studio 2017\projects\mangos\mangos\main.cpp(97): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\usuario\documents\visual studio 2017\projects\mangos\mangos\main.cpp(115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\usuario\documents\visual studio 2017\projects\mangos\mangos\main.cpp(125): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-  Mangos.vcxproj -> C:\Users\Usuario\Documents\Visual Studio 2017\Projects\Mangos\Debug\Mangos.exe
+﻿  Mangos.vcxproj -> C:\Users\Usuario\Documents\Visual Studio 2017\Projects\Mangos\Debug\Mangos.exe

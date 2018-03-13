@@ -15,14 +15,16 @@ cursor::cursor()
 }
 
 void cursor::VenderM() {
-	int peso = 0;
-	while (!inv.empty()) {
-		peso = inv.top()->peso;
-		pisto = (pisto + peso) * 2.5;
+	int pe = 0;
+	float dinero;
+	while(inv.size() != 0 ) {
+		pe = pe + inv.top()->peso;	
 		inv.pop();
-		cout << "El peso total es: " << peso << endl;
-		cout << "ha obtenido " << pisto << " lempiras." << endl;
 	}
+	dinero = pe * 2.5;
+	pisto = dinero + pisto;
+	cout << "El peso total es: " << pe << endl;
+	cout << "ha obtenido " << pisto << " lempiras." << endl;
 }
 
 cursor::~cursor(){}

@@ -5,13 +5,14 @@
 #include <SFML\Graphics.hpp>
 
 struct Mango {
-	sf::Texture t_mango;
-	sf::Sprite mango;
+	//sf::Texture t_mango;
+	//sf::Sprite mango;
 	Mango *ant;
 	Mango *sig;
 	int peso;
+
 	Mango(int, int, int);
-	sf::Sprite getSprite();
+	//sf::Sprite getSprite();
 	~Mango();
 };
 

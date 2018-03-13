@@ -14,11 +14,12 @@ private:
 	int cant_M;
 	int growth; 
 public:
+
 	Arbol();
 	Arbol(int, int);
 	~Arbol();
-	void add(int, int, int);
-	void add(Mango*);
+	void addM(int, int, int);
+	void addM(Mango*);
 	void insert(int, int, int, int);
 	void delet(int);
 	void masa();
